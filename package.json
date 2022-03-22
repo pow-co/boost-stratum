@@ -6,7 +6,7 @@
   "scripts": {
     "test": "NODE_ENV=test mocha --require=ts-node/register --timeout=10000 test/*test.ts",
     "start": "ts-node src/main.ts",
-    "jest": "jest --passWithNoTests"
+    "jest": "jest --passWithNoTests --coverage"
   },
   "author": "",
   "license": "ISC",
