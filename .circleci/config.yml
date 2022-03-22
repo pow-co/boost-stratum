@@ -11,7 +11,7 @@ jobs:
           command: npm install
       - run:
           name: Run Tests
-          command: npm test
+          command: npm run jest
       - run:
           name: Report Code Coverage
           command: |
